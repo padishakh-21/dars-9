@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/mulish-v10-latin-300.woff2') format('woff2'), url('../fonts/mulish-v10-latin-300.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/mulish-v10-latin-regular.woff2') format('woff2'), url('../fonts/mulish-v10-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/mulish-v10-latin-600.woff2') format('woff2'), url('../fonts/mulish-v10-latin-600.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/mulish-v10-latin-700.woff2') format('woff2'), url('../fonts/mulish-v10-latin-700.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-shadow: 200px 200px rgb(255, 255, 0), -200px 200px rgb(145, 255, 0), 200px -200px rgb(157, 255, 0), -200px -200px rgb(102, 255, 0), 200px 0px rgb(5, 93, 119), -200px 0px rgb(89, 0, 255), 0px 200px rgb(255, 0, 242), 0px -200px rgb(255, 0, 85);
+    transition: background-color 0.5s ease, box-shadow 3s ease;
+}
+
+.box:hover {
+    background-color: rgb(243, 131, 131);
+    box-shadow: 200px 200px rgb(104, 105, 122), -200px 200px rgb(100, 0, 200), 200px -200px rgb(200, 150, 100), -200px -200px rgb(24, 4, 41), 200px 0px rgb(255, 0, 179), -200px 0px rgb(0, 200, 17), 0px 200px rgb(200, 200, 100), 0px -200px rgb(55, 61, 32);
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
+}
